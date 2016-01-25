@@ -18,7 +18,7 @@ rectangle2 = RectangleAsset(50, 20, thinline, green)
 
 #display the rectangles
 Sprite(rectangle, (200, 50))
-Sprite(rectangle, (100, 25))
+Sprite(rectangle2, (225, 40))
 
 myapp = App()
 myapp.run()
