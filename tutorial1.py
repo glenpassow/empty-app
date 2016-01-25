@@ -14,7 +14,7 @@ thinline = LineStyle(1, black)
 
 # rectangles
 rectangle = RectangleAsset(50, 20, thinline, blue)
-rectangle2 = RectangleAsset(50, 20, thinline, red)
+rectangle2 = RectangleAsset(50, 20, thinline, green)
 
 #display the rectangles
 Sprite(rectangle, (200, 50))
