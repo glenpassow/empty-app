@@ -12,11 +12,13 @@ black = Color(0x000000, 1.0)
 #line style
 thinline = LineStyle(1, black)
 
-# rectangle
+# rectangles
 rectangle = RectangleAsset(50, 20, thinline, blue)
+rectangle2 = RectangleAsset(50, 20, thinline, red)
 
-#display the rectangle
+#display the rectangles
 Sprite(rectangle, (200, 50))
+Sprite(rectangle, (100, 25))
 
 myapp = App()
 myapp.run()
