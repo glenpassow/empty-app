@@ -14,3 +14,9 @@ thinline = LineStyle(1, black)
 
 # rectangle
 rectangle = RectangleAsset(50, 20, thinline, blue)
+
+#display the rectangle
+Sprite(rectangle)
+
+myapp = App()
+myapp.run()
